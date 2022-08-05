@@ -13,7 +13,7 @@ h1 {
 }
 
 header {
-    background-color: #081d55;
+    background-color: rgb(32, 7, 95);
     display: flex;
     color: white;
     flex-wrap: wrap;
@@ -111,4 +111,12 @@ img {
 
 .movie:hover .overview {
     transform: translateY(0);
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(1, 19, 20);
+    font-size: large;
+    color: white;
+    padding: 20px;
 }
