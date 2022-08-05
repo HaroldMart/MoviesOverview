@@ -74,3 +74,41 @@ img {
     color: white;
 }
 
+.info span {
+    font-weight: bold;
+    background-color: rgb(15, 79, 37);
+    padding: 5px;
+    height: 20px;
+    color: white;
+    margin-top: 12px;
+}
+
+.info span.orange {
+    color: orange;
+}
+
+.info span.red {
+    color: red;
+}
+
+.info span.green {
+    color: lightgreen;
+}
+
+.overview {
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-height: 100%;
+    transition: 0.35s ease-in;
+    transform: translateY(101%)
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
