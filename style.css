@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&family=Spectral:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 53, 56);
+    box-sizing: border-box;
+    font-family: 'Spectral', serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;;
+}
+
+header {
+    background-color: #081d55;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+#search {
+    background-color: rgb(5, 53, 56);
+    outline: none;
+    margin: 20px 30px;
+}
+
+#search:focus {
+    background-color: rgb(6, 72, 77);
+    color: white;
+}
+
+#search::placeholder {
+    color: rgb(214, 204, 204);
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 8px;
+    width: 170px;
+}
+
+img {
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.movie {
+    border-radius: 8px;
+    background-color: #05310d;
+    margin: 20px 0;
+    box-shadow: 4px 4px 4px 1px black;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+}
+
+.info {
+    padding: 8px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    color: white;
+}
+
