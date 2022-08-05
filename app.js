@@ -22,7 +22,7 @@ function showMovies(data) {
     
     data.forEach(movies => {
 
-        const {title, vote_average} = movies;
+        const {title, overview} = movies;
         const MOVIES_ELEMENT = document.createElement('div');
         MOVIES_ELEMENT.classList.add('movie');
 
@@ -31,13 +31,13 @@ function showMovies(data) {
 
             <div class="info">
                 <h3>${title}</h3>
-                
             </div>  
 
             <div class="overview">
-               
+                <h3>Overview</h3>
+                ${overview}
                 <hr>
-                
+            
             </div>
         `
         MAIN.appendChild(MOVIES_ELEMENT);     
