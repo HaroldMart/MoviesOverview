@@ -3,8 +3,6 @@
 <br>
 <h2>Pagina de Resumen de Peliculas</h2>
 
-<hr>
-
 ![image](https://user-images.githubusercontent.com/93040571/183111132-694aec1d-8b38-4c92-a62c-5ff748c29aa4.png)
 
 Esta es una pagina simple que recopila una coleccion de informacion de peliculas mediante una api llamada TMDB.
