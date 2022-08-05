@@ -22,28 +22,36 @@ function showMovies(data) {
     
     data.forEach(movies => {
 
-        const {title, overview} = movies;
+        const {title, vote_average, overview, vote_count, original_language ,release_date} = movies;
         const MOVIES_ELEMENT = document.createElement('div');
         MOVIES_ELEMENT.classList.add('movie');
 
         MOVIES_ELEMENT.innerHTML = `
-        <img src="${IMAGE_URL+poster_path}" alt="${title}">
-
             <div class="info">
                 <h3>${title}</h3>
+                <span class="${getColor(vote_average)}">${vote_average}</span>
             </div>  
 
             <div class="overview">
                 <h3>Overview</h3>
                 ${overview}
                 <hr>
-            
+                <div>
+                    <b>Vote Count: </b> ${vote_count} <br><br>
+                    <b>Original Language: </b> ${language(original_language)} <br>
+                    <b>Release Date:</b> ${release_date}
+                </div>
             </div>
         `
         MAIN.appendChild(MOVIES_ELEMENT);     
     });
 }
 
+function language(language) {
+    if(original_language = "en") {
+        return "English"
+    }
+}
 
 function getColor(vote) {
     if(vote >= 8) {
