@@ -7,7 +7,7 @@ Pagina de Resumen de Peliculas
 
 Esta es una pagina simple que recopila una coleccion de informacion de peliculas mediante una api llamada TMDB.
 
-
+<br>
 
 
 ![image](https://user-images.githubusercontent.com/93040571/183111215-dbf7bc3d-9ff5-405e-b791-958476cd07bd.png)
