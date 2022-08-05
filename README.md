@@ -11,7 +11,6 @@ Esta es una pagina simple que recopila una coleccion de informacion de peliculas
 <br>
 
 <h2>Resumen de la trama</h2>
-<hr>
 
 ![image](https://user-images.githubusercontent.com/93040571/183111215-dbf7bc3d-9ff5-405e-b791-958476cd07bd.png)
 
@@ -21,7 +20,6 @@ Permite ver el resumen de cada pelicula cuando se le pone el mouse encima.
 <br>
 
 <h2>Informacion basica</h2>
-<hr>
 
 ![image](https://user-images.githubusercontent.com/93040571/183111255-f77ff40c-feda-44e3-9004-b666dadf834a.png)
 
@@ -31,7 +29,6 @@ Permite ver su informacion basica, como su idioma, su calificacion por las perso
 <br>
 
 <h2>Buscador</h2>
-<hr>
 
 ![image](https://user-images.githubusercontent.com/93040571/183111338-b9a32b2a-9d05-46e5-9d0e-1efbecc40744.png)
 <br>
