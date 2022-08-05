@@ -22,11 +22,13 @@ function showMovies(data) {
     
     data.forEach(movies => {
 
-        const {title, vote_average, overview, vote_count, original_language ,release_date} = movies;
+        const {title, poster_path, vote_average, overview, vote_count, original_language ,release_date} = movies;
         const MOVIES_ELEMENT = document.createElement('div');
         MOVIES_ELEMENT.classList.add('movie');
 
         MOVIES_ELEMENT.innerHTML = `
+        <img src="${IMAGE_URL+poster_path}" alt="${title}">
+
             <div class="info">
                 <h3>${title}</h3>
                 <span class="${getColor(vote_average)}">${vote_average}</span>
@@ -62,4 +64,3 @@ function getColor(vote) {
         return 'red'
     }
 };
-
