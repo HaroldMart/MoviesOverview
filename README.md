@@ -7,6 +7,11 @@
 
 Esta es una pagina simple que recopila una coleccion de informacion de peliculas mediante una api llamada TMDB.
 
+#### Tecnologias
+- HTML
+- CSS
+- JS
+- API de TMDB
 <br>
 <br>
 
